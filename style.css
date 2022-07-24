@@ -1,0 +1,52 @@
+
+body,*{padding: 0px;margin:0px;width: 100%;overflow: hidden !important;}
+
+
+.logo{width: 111px;padding: 11%;}
+
+
+.navbar{background-color: black;width: 100vw;color:white;}
+
+.navbar a {color:white;}
+
+
+.grow-list{width:100%;}
+
+.list>li{list-style-type:none;background-color:blueviolet;
+   border-bottom: 1px solid white;
+height:33px;padding:11px;font-size:17px;text-align: center;
+}
+
+
+.list{
+margin:0px;
+width: 100% ; 
+}
+.button-small{list-style-type:none;background-color:blueviolet;
+    border-bottom: 1px solid white;
+ height:55px !important;padding:11px;font-size:17px;text-align: center;z-index: 999;}
+
+
+.hero{
+    height: 40vh;
+    background-image: url(assets/bg.png);
+background-size: cover;font-size: 1.1em;color: white;text-align: center;
+
+}
+
+.hero-heading{  font-size: 2em;}
+
+.hero-heading,.hero-description,.button-large{
+       position: relative;
+       top: 25%;
+      color: white;text-align: center;
+
+    }
+    .hero-description{font-size: 18px;font-weight: bold;}
+    .button-large{
+background-color: blueviolet !important;
+border:0px !important;
+font-size:18px;
+font-weight: bold;
+padding: 22px;
+    }
